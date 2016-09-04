@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Homework 9-10</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/jquery.selectbox.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+	<script src="http://code.jquery.com/color/jquery.color-2.1.2.min.js" integrity="sha256-H28SdxWrZ387Ldn0qogCzFiUDDxfPiNIyJX7BECQkDE=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/swiper.min.js"></script>
+	<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.selectbox.js"></script>
+	<script type="text/javascript" src="js/script.js" ></script>
+	
+</head>
+<body>
+	<div class="wrapper">
+		<h1>It`s a small swiper carousel with fade effect</h1>
+        <div class="swiper__border">
+	        <div class="swiper-container">
+	       		<div class="swiper-wrapper">
+	                <div class="swiper-slide" style="background-image:url(img/flower1.jpg)"></div>
+			        <div class="swiper-slide" style="background-image:url(img/flower2.jpg)"></div>
+			        <div class="swiper-slide" style="background-image:url(img/flower3.jpg)"></div>
+	        		<div class="swiper-slide" style="background-image:url(img/flower4.jpg)"></div>
+	        		<div class="swiper-slide" style="background-image:url(img/flower5.jpg)"></div>
+	        		<div class="swiper-slide" style="background-image:url(img/flower6.jpg)"></div>
+	        		<div class="swiper-slide" style="background-image:url(img/flower7.jpg)"></div>
+	    		</div>
+	    	    <div class="swiper-pagination"></div>
+			    <div class="swiper-button-prev"></div>
+			    <div class="swiper-button-next"></div>
+			</div>
+		</div>
+        
+        <nav>
+        	<ul class="menu__main">
+        		<li class="menu__item"><a class="menu__link" href="#">Point 1</a></li>
+        		<li class="menu__item menu__item--branch"><a class="menu__link triagle" href="#">Point 2</a>
+        			<ul class="submenu__level1">
+        				<li class="submenu__item"><a class="submenu__link" href="#">Subpoint 1</a></li>
+        				<li class="submenu__item menu__item--branch1"><a class="submenu__link triagle1" href="#">Subpoint 2</a>
+        					<ul class="submenu__level2">
+		        				<li class="submenu__item"><a class="submenu__link" href="#">Subpoint 2-1</a></li>
+		        				<li class="submenu__item"><a class="submenu__link" href="#">Subpoint 2-2</a></li>
+		        				<li class="submenu__item"><a class="submenu__link" href="#">Subpoint 2-3</a></li>
+        					</ul>
+        				</li>
+        				<li class="submenu__item"><a class="submenu__link" href="#">Subpoint 3</a></li>
+        			</ul>
+        		</li>
+        		<li class="menu__item"><a class="menu__link" href="#">Point 3</a>
+        		<li class="menu__item menu__item--branch"><a class="menu__link triagle" href="#">Point 4</a>
+        			<ul class="submenu__level1">
+        				<li class="submenu__item"><a class="submenu__link" href="#">Subpoint 1</a></li>
+        				<li class="submenu__item"><a class="submenu__link" href="#">Subpoint 2</a>
+        			</ul>
+        		</li>
+        		<li class="menu__item"><a class="menu__link" href="#">Point 5</a></li>
+        	</ul>	
+        </nav>
+        <div class="select__block">
+			<select>
+			  <option>Пункт 1</option>
+			  <option>Пункт 2</option>
+			  <option>Пункт 3</option>
+			  <option>Пункт 4</option>
+			  <option>Пункт 5</option>
+			  <option>Пункт 6</option>
+			</select>
+		</div>
+        <fieldset class="box__checkboxs box__checkboxs--css">
+        <legend>Customized checkbox by CSS</legend>
+	        <div class="checkbox__box">
+	        	<input type="checkbox" id="checkbox_1" name="cb1">
+	        	<label class="css__label" for="checkbox_1">label 1</label>
+	        </div>
+	        <div class="checkbox__box">	
+	        	<input type="checkbox" id="checkbox_2" name="cb2">
+	        	<label class="css__label" for="checkbox_2">label 2</label>
+	        </div>
+	        <div class="checkbox__box">
+	        	<input type="checkbox" id="checkbox_3" name="cb3">
+	        	<label class="css__label" for="checkbox_3">label 3</label>
+	        </div>
+	     </fieldset>
+	     <fieldset class="box__checkboxs box__checkboxs--jq">
+	     <legend>Customized checkbox by JQ</legend>
+	        <div class="checkbox__box">
+	        	<label for="checkbox_1--jq">label 1</label>
+	        	<span class="box__input"><input type="checkbox" id="checkbox_1--jq" name="cb1"></span>
+	        </div>
+	        <div class="checkbox__box">	
+	        	<label for="checkbox_2--jq">label 2</label>
+	        	<span class="box__input"><input type="checkbox" id="checkbox_2--jq" name="cb2"></span>
+	        </div>
+	        <div class="checkbox__box">
+	        	<label for="checkbox_3--jq">label 3</label>
+	        	<span class="box__input"><input type="checkbox" id="checkbox_3--jq" name="cb3" checked></span>
+	        </div>
+	     </fieldset>
+		
+	</div>
+	<footer>
+		
+	</footer>
+</body>
+</html>
