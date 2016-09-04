@@ -13,7 +13,7 @@ $(function() {
 
 // jQuery marcj selectBox
 
-$('select').selectBox({
+$('select').selectBox ({
     menuTransition: 'fade',
     keepInViewport: false,
     bottomPositionCorrelation: -3,
